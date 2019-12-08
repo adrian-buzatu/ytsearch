@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomeController@index');
+Route::get('/search/{tag}/{ptoken}', 'YoutubeController@search');
+Route::get('/search/{tag}/', 'YoutubeController@search');

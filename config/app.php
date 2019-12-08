@@ -228,4 +228,17 @@ return [
 
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Youtube API
+    |--------------------------------------------------------------------------
+    |
+    | The key for the YT Api.
+    |
+    */
+
+    // 'youtube_api_key' => 'AIzaSyAjQ_BjOboeg0pVsowrGFhMuSb-thhlbgY',
+    'youtube_api_key' => 'AIzaSyA0vzx9JhxbWE6VrjjRbFosgn05wET90PM',
+
+
 ];
